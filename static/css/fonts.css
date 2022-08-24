@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+span.accent-text {
+    color: var(--accent);
+    font-family: 'Share Tech Mono', monospace;
+    white-space:pre;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+ion-icon {
+    font-size: 24px;
+}
+
+span.code-block {
+    border-radius: 5px;
+    padding-inline: 4px;
+    padding-block: 2px;
+    background-color: var(--code-block-back);
+    font-family: 'Share Tech Mono', monospace;
+}
